@@ -1,0 +1,22 @@
+CREATE TABLE stg_amazon_orders (
+    user_id VARCHAR(100),
+    product_id VARCHAR(100),
+    category VARCHAR(100),
+    subcategory VARCHAR(100),
+    brand VARCHAR(100),
+    price DECIMAL(10,2),
+    discount DECIMAL(10,2),
+    final_price DECIMAL(10,2),
+    rating DECIMAL(3,2),
+    review_count INT,
+    stock INT,
+    seller_id VARCHAR(100),
+    seller_rating DECIMAL(3,2),
+    purchase_date DATE,
+    shipping_time_days INT,
+    location VARCHAR(100),
+    device VARCHAR(50),
+    payment_method VARCHAR(50),
+    is_returned BIT,
+    delivery_status VARCHAR(50)
+);
